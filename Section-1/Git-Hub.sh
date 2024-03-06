@@ -62,3 +62,22 @@ git merge Develop                       #  Merge the branch develop into current
 git add .                               #  Stage all the changes that were merged
 git commit                              #  Make a new Commit with message
 git push                                #  Push the changes to the remote repo
+
+# GIT REVERT 
+# If you have made a mistake in your  last commit: REVERT WORK HERE
+# There are two way to achive this by  using either one of them 'revert' and 'reset'
+# RESET -Practically, user can think of it as a "roleback"
+# REVERT  – Reverts a particular commit. It’s like undoing a commit.
+
+git log  --oneline # Shows  the history of commits
+git reset --hard HEAD~1 #   Goes back to the state before the last commit
+                         #   The ~1 means one
+git reset --soft c53c593 #   Soft resets the staging area to match
+git rest --hard 1bfcea9  #  Hard Reset the entire project to match this commit
+
+# Compare  Two Different Point In Time Of Your Project
+git diff  HEAD <commit> # This will give the difference between the current version of the project and any
+git diff <commit-id-1> <commit-id-2> # review difference between two commits 
+git branch -a #   Lists all the branches including remotes
+git branch -m Development hotfix # Rename  the development branch to hotfix
+## MERGE Branch Master to Main
