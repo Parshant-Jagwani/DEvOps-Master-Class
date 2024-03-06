@@ -75,3 +75,6 @@ git reset --hard HEAD~1 #   Goes back to the state before the last commit
 git reset --soft c53c593 #   Soft resets the staging area to match
 git rest --hard 1bfcea9  #  Hard Reset the entire project to match this commit
 
+# Compare  Two Different Point In Time Of Your Project
+git diff  HEAD <commit> # This will give the difference between the current version of the project and any
+git diff <commit-id-1> <commit-id-2> # review difference between two commits 
