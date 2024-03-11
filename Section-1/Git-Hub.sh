@@ -78,3 +78,13 @@ git rest --hard 1bfcea9  #  Hard Reset the entire project to match this commit
 # Compare  Two Different Point In Time Of Your Project
 git diff  HEAD <commit> # This will give the difference between the current version of the project and any
 git diff <commit-id-1> <commit-id-2> # review difference between two commits 
+
+
+# GIT STASH:
+# Git Stash  is used when you want to save your work temporarily, You want to make copy,
+# So that you can work on something else, and then come back and resume work on that code which had git-stashed\
+# Stash come handy when you have to switch context and work on something else, but you`re mid-way
+# through a code change and aren't quite ready to commit.
+
+
+# STAGE SOME CHANGES
