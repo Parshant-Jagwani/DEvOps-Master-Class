@@ -88,8 +88,5 @@ git diff <commit-id-1> <commit-id-2> # review difference between two commits
 
 
 # STAGE SOME CHANGES
-<<<<<<< Updated upstream
 # Lets say we have a file testfile. and urgent fix
-=======
 # Lets check------
->>>>>>> Stashed changes
